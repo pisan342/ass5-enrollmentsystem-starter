@@ -8,7 +8,7 @@ PROG=$0
 EXE="./a.out-code-coverage"
 # How we want to call our executable, 
 # possibly with some command line parameters
-EXEC_PROGRAM="./a.out maze0.txt maze1.txt maze2.txt maze3.txt badfile.txt"
+EXEC_PROGRAM="$EXE"
 PROFDATA=$EXE.profdata
 CC=clang++
 
